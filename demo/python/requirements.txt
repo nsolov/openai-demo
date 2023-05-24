@@ -1,0 +1,4 @@
+iris-pex-embedded-python>=2.0.0
+dataclasses-json==0.5.7
+requests==2.27.1
+openai
