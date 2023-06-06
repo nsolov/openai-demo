@@ -127,7 +127,7 @@ ClassMethod CreateDialog(data As %DynamicObject) As %Status
 
 ClassMethod DeteleByChatId(chatId) As %Status
 {
-    &sql(DELETE FROM Telegram_Demo.Dialog WHERE ChatId = :chatId)
+    &sql(DELETE FROM Demo.Dialog WHERE ChatId = :chatId)
     return $$$OK
 }
 
